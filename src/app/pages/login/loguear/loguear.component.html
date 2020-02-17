@@ -1,0 +1,13 @@
+<div class="container d-flex justify-content-center ">
+    <form class="w-50 my-5 " [formGroup]="form" (ngSubmit)="Submit()">
+        <h5 class="text-center">LOGIN</h5>
+        <br>
+        <label>USUARIO:</label>
+        <input class="form-control" formControlName="usuario" type="text">
+        <br>
+        <label>PASSWORD:</label>
+        <input class="form-control" formControlName="contrasena" type="password">
+        <br>
+        <button type="submit" class="btn btn-primary w-25 d-flex justify-content-md-center">Iniciar Sesion</button>
+    </form>
+</div>
